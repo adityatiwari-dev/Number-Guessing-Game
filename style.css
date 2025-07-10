@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;  /* Light gray background */
+    color: #333;  /* Dark text color for good contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrapper {
+    background-color: #fff;  /* White background for the game wrapper */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #007BFF;  /* Bright blue for the heading */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;  /* Medium gray for general text */
+}
+
+#guess {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20%;
+    color: #007BFF;  /* Matching bright blue for the label */
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 70%;
+    border: 2px solid #007BFF;  /* Blue border for input field */
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4;  /* Light gray input field */
+    color: #333;  /* Dark text for input */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #28a745;  /* Green submit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
+
+.resultPara {
+    margin-top: 20px;
+}
+
+.resultPara p {
+    font-size: 18px;
+    color: #555;  /* Medium gray for result text */
+}
+
+.guesses {
+    font-weight: bold;
+    color: #17a2b8;  /* Soft teal for guesses */
+}
+
+.remaining {
+    font-weight: bold;
+    color: #dc3545;  /* Red for remaining attempts */
+}
+
+.lowOrhigh {
+    font-size: 20px;
+    font-weight: bold;
+    color: #dc3545;  /* Red for low or high feedback */
+}
